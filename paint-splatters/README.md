@@ -4,4 +4,4 @@ Simulating paint splatters (inspired by [Nature of Code](https://natureofcode.co
 
 Left click splatters paint, right click cleans up the window.
 
-![Screenshot of a black window scattered with colorful pixels](res/splatters.gif)
+![A black window being scattered with colorful pixels](res/splatters.gif)
