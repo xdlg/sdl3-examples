@@ -64,7 +64,7 @@ void Symmetrizer::updatePoints(SDL_FPoint mainPoint) {
         float y_sym{static_cast<float>(
             (y - m_origin.y) * std::cos(beta) - (x - m_origin.x) * std::sin(beta) + m_origin.y)};
 
-        if ((x_sym >= 0) && (x_sym <= w) && (y_sym >= 0) && (y_sym <= h)) {
+        if ((x_sym >= 0) && (x_sym < w) && (y_sym >= 0) && (y_sym < h)) {
             m_points.emplace_back(x_sym, y_sym);
         }
     }
